@@ -1,4 +1,4 @@
-# vue-template
+# vue2-template-ts-decorator
 
 ## Project setup
 ``` bash
