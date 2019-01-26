@@ -5,7 +5,6 @@ const buildTip = (env_name) => {
     console.log(chalk.blue('\n>>>>>  您正在进行单元测试，具体信息如下：\n'));
   } else {
     console.log(chalk.blue('\n>>>>>  您正在运行/打包【' + chalk.bold.magenta(env_name) + '】应用，具体配置信息如下：\n'));
-    console.log(chalk.yellow(chalk.bold.magenta('当前环境变量：') + process.env.NODE_ENV));
     console.log(chalk.yellow(chalk.bold.magenta('当前应用版本：') + process.env.VUE_APP_ENV));
     console.log(chalk.blue(''));
   }
